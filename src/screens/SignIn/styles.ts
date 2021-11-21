@@ -20,7 +20,6 @@ export const Content = styled.ScrollView.attrs({
 export const LoginBanner = styled.View`
   flex: 1;
   width: 100%;
-
   background-color: ${props => props.theme.colors.purple};
   padding: ${getStatusBarHeight(true) + 60}px 40px 60px;
 `;
@@ -46,19 +45,17 @@ export const Partner = styled.Text`
 export const Description = styled.Text`
   font-family: ${props => props.theme.fonts.bold};
   margin-top: 48px;
-
   font-size: 25px;
   color: ${props => props.theme.colors.white};
 `;
 
 export const SignInButton = styled(RectButton)`
   margin-top: 40px;
-
   background-color: ${props => props.theme.colors.purple};
   justify-content: center;
   align-items: center;
   flex-direction: row;
-
+  height: 56px;
   border-radius: 5px;
 `;
 
